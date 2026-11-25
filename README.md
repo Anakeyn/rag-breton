@@ -23,8 +23,18 @@ Le fonctionnement est expliqué en détail dans un article du [blog d'Anakeyn](h
 | Gemma 4 26B A4B QAT (`google/gemma-4-26b-a4b-qat`) | | rédaction en français |
 | bge-m3 (`lm-kit/text-embedding-bge-m3`) | | recherche par le sens |
 
-**Mémoire nécessaire.** Gemma 4 26B A4B occupe environ 16 Go. Les tests ont été faits sur le processeur d'un portable de 2017 doté de 32 Go de mémoire (Intel Core i5 à 4 cœurs). Sur une machine plus modeste, on peut charger un modèle plus petit dans LM Studio et le désigner avec `--modele-chat`, au prix de la qualité.
+## Matériel nécessaire
 
+| Usage | Mémoire vive | Carte graphique |
+|---|---|---|
+| Traduire (Gemma 4 26B A4B) | 32 Go conseillés : le modèle occupe à lui seul environ 16 Go | inutile : Gemma tourne sur le processeur |
+| Construire l'index (bge-m3) | 8 Go suffisent | facultative, mais beaucoup plus rapide : une carte NVIDIA de 4 Go (GTX 1050 Ti) suffit |
+
+Configuration testée : portable Acer Aspire 7 (2017), Intel Core i5 à 4 cœurs, 32 Go de mémoire, GeForce GTX 1050 Ti 4 Go, Ubuntu 26.04 LTS.
+
+**Durée de l'indexation.** bge-m3 calcule environ 36 phrases par seconde sur la carte graphique, contre 3 à 7 sur le processeur. Pour les quelque 400 000 phrases du corpus, il faut donc environ 3 heures sur la carte, et 16 à 37 heures sur le processeur. Sans carte graphique, l'option `--sans-embeddings` construit en quelques minutes un index de recherche par les mots seuls.
+
+**Avec moins de mémoire**, on peut charger dans LM Studio un modèle plus petit et le désigner avec `--modele-chat`, au prix de la qualité de traduction. La commande `phrase`, qui traduit un texte, n'a besoin ni de l'index ni de bge-m3.
 ## Installation
 
 ```bash
