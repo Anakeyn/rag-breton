@@ -190,12 +190,15 @@ outils/complements/         enrichir complements.tsv et variantes.tsv
 
 Les règles de grammaire sont dans `traduction/grammaire.py`, les prompts de Gemma dans `traduction/gemma.py`, les paramètres par défaut (adresse de LM Studio, modèle d'embedding) dans `commun/config.py`.
 
-## Autres traducteurs breton → français
+## Autres traducteurs breton → français en local
 
-D'autres projets ont fait le choix inverse : réentraîner un petit modèle de traduction (418 millions de paramètres, environ 2 Go de mémoire) sur des paires de phrases breton–français. Ils tournent sur un portable courant, mais traduisent moins fidèlement :
+D'autres projets ont fait un autre choix : réentraîner un petit modèle de traduction sur des paires de phrases breton–français. Ces modèles comptent 418 millions de paramètres (contre 26 milliards pour Gemma 4 26B A4B, dont environ 4 milliards actifs pour chaque mot) et occupent environ 2 Go de mémoire. Ils tournent sur un portable courant, sans carte graphique.
 
-- **Kellag** (breton → français) et **Gallek** (français → breton), du projet [GweLLM](https://github.com/blackccpie/GweLLM) d'Albert Murienne : [amurienne/kellag-m2m100](https://huggingface.co/amurienne/kellag-m2m100) ;
+N'hésitez pas à faire vos propres comparaisons :
+
+- **Kellag** (breton → français), du projet [GweLLM](https://github.com/blackccpie/GweLLM) d'Albert Murienne : [amurienne/kellag-m2m100](https://huggingface.co/amurienne/kellag-m2m100). Le même projet propose aussi **Gallek**, pour l'autre sens (français → breton) ;
 - **m2m100_418M_br_fr** de Loïc Grobol (breton → français) : [lgrobol/m2m100_418M_br_fr](https://huggingface.co/lgrobol/m2m100_418M_br_fr).
+
 
 ## Projet lié
 
