@@ -199,6 +199,7 @@ N'hésitez pas à faire vos propres comparaisons :
 - **Kellag** (breton → français), du projet [GweLLM](https://github.com/blackccpie/GweLLM) d'Albert Murienne : [amurienne/kellag-m2m100](https://huggingface.co/amurienne/kellag-m2m100). Le même projet propose aussi **Gallek**, pour l'autre sens (français → breton) ;
 - **m2m100_418M_br_fr** de Loïc Grobol (breton → français) : [lgrobol/m2m100_418M_br_fr](https://huggingface.co/lgrobol/m2m100_418M_br_fr).
 
+Il existe aussi des traducteurs en ligne, comme celui de l'[Office public de la langue bretonne](https://niverel.brezhoneg.bzh/fr/troer/) ou celui d'[Apertium](https://www.apertium.org/index.fra.html#?dir=bre-fra) (breton → français seulement, le même moteur que celui utilisé ici pour l'analyse), mais le texte à traduire est alors envoyé sur leurs serveurs.
 
 ## Projet lié
 
