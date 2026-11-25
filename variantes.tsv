@@ -1,0 +1,68 @@
+# variantes.tsv : graphies dialectales ou anciennes -> breton unifié (peurunvan)
+# Une ligne par forme : forme<TAB>forme unifiée<TAB>commentaire (facultatif).
+# Appliqué au texte AVANT Apertium. Les lignes en # sont ignorées.
+# Établi d'après la chanson « Ar Whisky Du » : À FAIRE VALIDER par le professeur.
+#
+# --- Assez sûr ---
+# deus	eus	de, depuis (Deus Penn ar Men)
+evid	evit	pour
+toud	holl	tous (KLT : toud)
+beteg	betek	jusqu'à
+vel	evel	comme
+seu	setu	voilà
+errued	erruet	participe passé en -ed (erruout)
+tremened	tremenet	participe passé en -ed (tremen)
+diskwezhed	diskouezet	participe passé (diskouez, montrer)
+c'wezh	c'hwezh	odeur (ur c'hwezh vat)
+vad	vat	bon (mat après nom féminin)
+tao	taol	fois (en taol-mañ)
+'ni	hini	celui, celle (an hini kentañ)
+'n	an	article (’n taol-mañ)
+et	aet	allé, parti (oa aet)
+dei	dezhi	à elle
+zeus	ez eus	il y a (Zeus ezhomm)
+kerzu	Kerzu	mois de décembre (majuscule en peurunvan)
+#
+# --- À vérifier : laissé désactivé (retirer le # pour l'activer) ---
+hez	ez	particule verbale (prononciation orale de ez)
+# va	vat	c'hwezh va(t) ? attention : « va » est aussi le possessif « mon »
+# zovajded	sovajded	pluriel de sovaj ?
+# peñseet	peñseet	a fait naufrage (peñseal) : forme à confirmer
+# n'i	an hini	n'i gozh = an hini gozh (la vieille) ?
+# gokotenn	kokotenn	?
+# gastolorenn	kastolorenn	?
+gonezet	gounezet	forme du texte MARTOLODED BREIZH
+preniñ	prenañ	forme du texte MARTOLODED BREIZH
+rouejoù	rouedoù	forme du texte MARTOLODED BREIZH
+treuzañ	treuziñ	forme du texte MARTOLODED BREIZH
+lodañ	lodennañ	forme du texte MARTOLODED BREIZH
+troc'hiñ	troc'hañ	forme du texte MARTOLODED BREIZH
+werzhiñ	werzhañ	forme du texte MARTOLODED BREIZH
+vagiñ	vagañ	forme du texte MARTOLODED BREIZH
+tommded	tommder	forme du texte MARTOLODED BREIZH
+gonezet	gounezet	forme du texte MARTOLODED BREIZH
+preniñ	prenañ	forme du texte MARTOLODED BREIZH
+rouejoù	rouedoù	forme du texte MARTOLODED BREIZH
+treuzañ	treuziñ	forme du texte MARTOLODED BREIZH
+lodañ	lodennañ	forme du texte MARTOLODED BREIZH
+troc'hiñ	troc'hañ	forme du texte MARTOLODED BREIZH
+werzhiñ	werzhañ	forme du texte MARTOLODED BREIZH
+vagiñ	vagañ	forme du texte MARTOLODED BREIZH
+tommded	tommder	forme du texte MARTOLODED BREIZH
+#
+# Ajouts validés (a_valider_martoloded.tsv, 2026-11-21)
+mousc'hoazh	mousc'hoarzh	coquille probable (sourire)
+villlar	vilhar	coquille : taol villar = taol bilhar muté
+Ꝃantre	Kerantre	Ꝃ = abréviation de Ker-
+Ꝃlien	Kerlien	Ꝃ = abréviation de Ker-
+a-gichen	e-kichen	à côté
+Metonomiezh	Metonimiezh	coquille probable
+#
+# Ajouts validés (a_valider_kontan.tsv, 2026-11-21)
+arbadaez	abardaez	1 fois ; coquille probable (soir)
+gouiet	gouezet	1 fois ; su (participe de gouzout), graphie locale
+lar	lâr	1 fois ; dit (lavaret), graphie orale
+mediaou	mediaoù	1 fois ; médias
+oemp	oamp	1 fois ; nous étions, graphie locale
+possubl	posupl	1 fois ; possible
+laret	lavaret	1 fois ; dit, graphie orale

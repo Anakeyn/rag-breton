@@ -1,0 +1,10 @@
+# Bibliothèques Python du projet (testé avec Python 3.14).
+# Apertium et apertium-br-fr s'installent à part : sudo apt install apertium apertium-br-fr
+# LM Studio et ses modèles (Gemma 4, bge-m3) s'installent aussi à part.
+numpy
+requests
+scikit-learn
+openpyxl
+# interface web (interface_web.py) seulement
+fastapi
+uvicorn

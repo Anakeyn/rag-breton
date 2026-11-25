@@ -1,0 +1,13 @@
+# Index et données : trop volumineux, à reconstruire (voir README)
+index_breton/
+donnees/
+# Textes de travail, essais et archives locales
+tests/
+archives/
+*.html
+*.xlsx
+# Python
+__pycache__/
+*.pyc
+venv*/
+.venv/

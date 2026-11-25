@@ -1,0 +1,211 @@
+# complements.tsv — compléments personnels au dictionnaire d'Apertium
+# Une entrée par ligne : breton<TAB>traduction française (la tabulation est obligatoire).
+# Mot seul ou expression de plusieurs mots ; les entrées ici ont priorité sur Apertium.
+# Majuscules et apostrophes (’ ou ') sont indifférentes. Les lignes en # sont ignorées.
+#
+# Mots inconnus d'Apertium
+# Expressions que la traduction mot à mot rend mal
+# Ajouts validés (a_valider_martoloded.tsv, 2026-11-21)
+'t eus	tu as
+'t eus te	as-tu, toi
+a-gichen	à côté
+a-ratre-kaer	soigneusement, avec grand soin
+adklevet	réentendu, entendu de nouveau
+adsal	arrière-salle
+adskedet	reflété
+akipaj	équipage
+akipajoù	équipages
+ar c'heloù	les nouvelles
+ar wiski du	« Ar Wiski Du » (titre de chanson)
+bankadoù	bancs (de poissons)
+banne	un verre (à boire)
+besketadenn	pêche (prise)
+bilhar	billard
+boest karr-an-teil	poubelle
+bouetaat	alimenter, nourrir
+brederiadenn	recherche, réflexion (d'un chercheur)
+c'hoban	abri, cabane (koban muté)
+c'houelediñ	sombrer, couler (au fond)
+d'ar bet emaomp	le combien sommes-nous
+d.l.e.	c'est-à-dire
+da vihanañ	au moins
+danvez-kelennerien	futurs enseignants
+danvez-skolaerien	futurs enseignants
+dao dao dao	toc toc toc
+daol-gont	comptoir
+datathon	datathon (marathon de programmation sur des données)
+deuit tre	entrez (impératif de dont + tre, « dedans »)
+dianavez	inconnu
+dianavezet	méconnu, non reconnu
+diazezadur	fondation
+dibont	sans pont, non ponté (bateau)
+difraostañ	défricher
+diskrivañ	décrire
+displegañ	expliquer (aussi : déplier)
+distagañ	prononcer (aussi : détacher)
+disvro	exil, émigration
+divarchet	un peu déboussolé
+divoull	ramender (réparer les filets) ou démailler
+divoullerezed	ramendeuses (ou démailleuses)
+diwar an abeg ez	au motif que
+diwar an abeg ma	au motif que
+dizingalderioù	inégalités
+dondez	profondeur
+donezonet	doué
+douarnenezeg	parler de Douarnenez
+douarneneziz	Douarnenistes (habitants de Douarnenez)
+drapañ	attraper
+dreboulliz	Tréboulistes (habitants de Tréboul)
+dreistprizañ	surestimer
+dresiñ	réparer, ramender
+e dalc'h	en possession de, appartenant à
+e-barzh	dans
+e-lec'h e	où (là où)
+e-lec'h m'	où (là où)
+e-lec'h ma	où (là où)
+eizhtez	huit jours, une semaine
+emdroad	évolution
+etap	étape
+flapañ	bavarder
+furm	forme
+furmioù	formes
+Gonkiz	Concarnois (habitants de Konk-Kerne, Concarneau)
+gouel an arsav-brezel	fête de l'Armistice
+gounidegezh	gains (bénéfice)
+gourhed	brasse (mesure)
+gwaskell	presse (à sardines)
+gwaskelloù	presses (à sardines)
+gwialenn	baguette, queue de billard
+gwin ardant	eau-de-vie
+haiku	haïku (poème japonais)
+hantervaraton	semi-marathon
+hedorr	fragile
+hegasañ	agacer, irriter
+hervez e soñj	selon son gré, comme il veut
+hervez he soñj	selon son gré, comme elle veut
+heskinus	harcelant, pénible
+hirentez	longueur
+hollvezañs	omniprésence
+implijer	utilisateur (sur un wiki : contributeur)
+implijerien	utilisateurs (sur un wiki : contributeurs)
+implijetañ	le plus utilisé
+intelijañs	intelligence (intelijañs artifisiel = IA)
+islinennañ	souligner
+islinennit	soulignez
+kabac'h	infirme
+kalafetiñ	calfater
+kaleted	dureté
+kamionetenn	camionnette
+kanadeg	concert de chant, récital
+kantreal	errer, vagabonder
+kart	quart
+kastored	castors
+kelenner Magnolia	professeur de Magnolia (l'association)
+kendruez	compassion
+kenskolidi	camarades de classe
+kerzhadenn	marche, randonnée
+Kompostell	Compostelle
+kompozet	composé (participe de kompoziñ)
+Konk-Kernev	Concarneau
+kontañ	raconter (aussi : compter)
+korpus	corpus
+koublet	combiné, réuni
+kouviad	invité
+kouviadez	invitée
+kouvidi	invités (pluriel de kouviad)
+Kovid	Covid
+koñchoù	comptes
+kredapl	croyable
+kudennig	petit problème
+kustum	coutume
+kustumoù	coutumes, habitudes
+kuzul gevellañ	comité de jumelage
+laouen	joyeux
+lazhourien	tueurs
+ledandez	largeur
+lij	liège
+lij-koad	liège
+limonad	limonade
+lod eus	certains (de)
+lodañ	partager (en parts)
+m'emaomp	que nous sommes
+mail	courriel, e-mail
+maraton	marathon
+melestret	administré, géré
+merc'her	mercredi
+mestrouer	patron (de pêche)
+mik	chut, silence
+mougus	étouffant
+muzikaner	musicien
+na brav	que c'est beau
+na pegement a dud	que de monde
+nevezvrezhoneger	néo-bretonnant
+nevezvrezhonegerien	néo-bretonnants
+ohu	oh là là ! (interjection de surprise)
+otomatek	automatique
+paotr an tailhoù	le percepteur (l'homme des impôts)
+parizianez	Parisienne
+parkle	parking
+pebrañ	poivrer
+penn-kor	chef de chœur
+pennober	chef-d'œuvre
+pennrenerez	directrice
+perzhier	ports (pluriel de porzh)
+pesketadenn	pêche, prise
+petra eo	qu'est-ce que c'est
+peñseet	a fait naufrage
+pinasenn	pinasse
+pladet	aplani, nivelé
+plaket	plaqué
+plan	plan
+pleustret war	étudié, travaillé (pleustriñ war = travailler sur)
+poch-drag	chalut, drague (filet traîné sur le fond)
+pouezhus	important
+profitiñ	profiter
+prototip	prototype
+psikologiezh	psychologie
+rakpaeet	payé d'avance
+reiñ lañs	lancer
+reiñ lañs en-dro	relancer
+reiñ lañs en-dro da	relancer
+reiñ lañs en-dro dezhañ	le relancer
+reiñ lañs en-dro dezhi	la relancer
+reiñ lañs en-dro dezho	les relancer
+roll	rôle
+safaradeg	vacarme
+safariñ	faire du vacarme
+sal-glas	salle de classe
+savas	composa (sevel : composer, pour des airs, des chansons)
+savetaet	sauvé (participe passé ; infinitif : saveteiñ ?)
+seizet	pris, coincé, empêtré
+seksel	sexuel
+seksist	sexiste
+simbol	symbole
+skoliad	élève
+skolidi	élèves
+skolidi ger	chers élèves
+sonet	joué (seniñ : jouer de la musique)
+sosiosevenadurel	socioculturel
+souezhe	étonnait (souezhañ)
+soutilded	subtilité
+sovaj	sauvage
+soñj dezhañ	il pense (que)
+soñj dezhi	elle pense (que)
+stalikerezh	équipement
+tachenn morlu	district naval
+taol-gont	comptoir
+tañva	avant-goût, aperçu (aussi : goûter)
+te	toi
+te neuze eo	c'est donc toi
+treboull	Tréboul
+trelosk	carburant
+treuskas	transmettre
+trimiziek	trimestriel
+turgnet	tourné (travaillé au tour)
+vakansoù	vacances
+vakañseier	vacances
+vazektomi	vasectomie
+war ar film	dans le film
+wisky du	whisky noir
+zouarneneziz	Douarnenistes (habitants de Douarnenez)
+zovajded	sauvageries
