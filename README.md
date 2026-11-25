@@ -1,6 +1,7 @@
 # rag-breton
 
-Rag-breton est un traducteur **breton → français** qui tourne entièrement en local, sur un ordinateur portable, sans envoyer de texte sur Internet.
+Rag-breton est un traducteur **breton → français** qui tourne entièrement en local, sans envoyer de texte sur Internet. Il a été testé sur un ordinateur portable de 2017 doté de 32 Go de mémoire.
+
 
 Il associe deux outils libres :
 
