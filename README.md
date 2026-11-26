@@ -10,7 +10,7 @@ Il associe deux outils libres :
 
 Le système fonctionne aussi en **RAG hybride** (*Retrieval-Augmented Generation*) sur un corpus d'environ 400 000 phrases bretonnes. Il fait une recherche par les mots (BM25 sur les lemmes d'Apertium) et une recherche par le sens (vecteurs [bge-m3](https://huggingface.co/BAAI/bge-m3)), fusionnées par *Reciprocal Rank Fusion*. Il sert à chercher dans le corpus, à expliquer un mot, ou à donner à Gemma des phrases déjà traduites par des humains comme exemples (option `--memoire`).
 
-Le fonctionnement est expliqué en détail dans un article du [blog d'Anakeyn](https://www.anakeyn.com).
+Le fonctionnement est expliqué en détail dans l'article [Traduire le breton en local : Apertium, Gemma 4 et un RAG hybride](https://www.anakeyn.com/2026/11/26/traduire-le-breton-en-local-apertium-gemma-4-et-un-rag-hybride/), sur le blog d'Anakeyn.
 
 ## Ce qu'il faut
 
